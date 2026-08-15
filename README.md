@@ -2,13 +2,11 @@
 
 Học kỳ 3, Năm học: 2025-2026
 
-**Họ tên**: ...
+**Họ tên**: TRẦN TRÚC LY
 
-**MSSV**: ...
+**MSSV**: DC25V7K016
 
-**Lớp HP**: ...
-
-
+**Lớp HP**: CT275DC01
 
 ## Triển khai trên nginx
 
