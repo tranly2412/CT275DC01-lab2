@@ -18,7 +18,9 @@ function render_page_footer(bool $is_loggedin = false): void
     </div><!-- container -->
     <div id="footer">Content &copy; 2025</div>
     </body>
-
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+</script>
     </html>
 <?php
 }
