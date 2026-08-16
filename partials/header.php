@@ -29,7 +29,7 @@ function get_database_connection(): ?PDO
     }
 
     // Tạo đối tượng PDO để kết nối đến database
-
+$pdo = new PDO('pgsql:host=localhost;dbname=ct275_lab2', 'postgres', '123456');
     return $pdo;
 }
 
@@ -50,6 +50,17 @@ function render_page_header(): void
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" media="all" href="css/style.css">
         <title><?= html_escape($title) ?></title>
+        <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
     </head>
 
     <body>
