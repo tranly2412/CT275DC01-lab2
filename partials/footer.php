@@ -13,7 +13,7 @@ function render_page_footer(bool $is_loggedin = false): void
         </p>
     <?php else: ?>
         <hr>
-        <p><a href="/">Trang chủ</a> <-> <a href="login.php">Đăng nhập</a></p>
+        <p><a href="/">Trang chủ</a> <-> <a href="login.php">Đăng nhập</a><-> <a href="search.php">Tìm Kiếm</a></p>
     <?php endif; ?>
     </div><!-- container -->
     <div id="footer">Content &copy; 2025</div>
